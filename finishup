@@ -1,0 +1,13 @@
+  string message;
+
+    cout << "Enter a message: ";
+    getline(cin, message);
+
+    cout << "\nMorse Code:\n";
+
+    for (char ch : message)
+    {
+        if (ch == ' ')
+        {
+            cout << " / ";
+        }
