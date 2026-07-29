@@ -1,0 +1,10 @@
+     else
+        {
+            ch = toupper(ch);
+            cout << morse[ch] << " ";
+        }
+    }
+
+    cout << endl;
+
+    return 0;
